@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-image: url(output-onlinepngtools.png);
+
+  color: rgb(26, 9, 9);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav {
+  margin: 100px;
+  /* background-color: chocolate; */
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+#img {
+  width: 80px;
+  height: 60px;
+  position: absolute;
+  top: 5px;
+  left: 3px;
+  display: block;
+
+  border: rgb(100, 120, 55);
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 50px;
+}
+/* #yoox {
+  width: 300px;
+  height: 300px;
+  border: rgb(165, 84, 46);
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 50px;
+  justify-content: space-around;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(173, 50, 50, 0.19);
+  margin-bottom: 25px;
+} */
+.rounded-circle {
+  width: 300px;
+  height: 300px;
+}
+.rounded {
+  width: 300px;
+  height: 300px;
+}
+#gototop {
+  float: right;
+  margin-right: 25px;
+}
+#web {
+  color: black;
+  margin-left: 50%;
+}
+#title {
+  text-align: center;
+  color: rgb(200, 17, 17);
+  font-family: monospace;
+  font-size: 50px;
+}
+li {
+  margin: 10px;
+}
+#ho {
+  margin-left: 10px;
+  color: blueviolet;
+  font-family: monospace;
+}
+#palf {
+  margin: 10px;
+}
+.polaroid {
+  width: 300px;
+  height: 300px;
+
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 30px;
+  justify-content: space-around;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(173, 50, 50, 0.19);
+  margin-bottom: 25px;
+  max-width: 30%;
+  height: auto;
+
+  margin: 17px;
+  float: left;
+  /* width: 20%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.container {
+  text-align: center;
+  padding: 10px 20px;
+  color: rgb(200, 17, 17);
+}
+.nav1 {
+  margin: 100px;
+  /* background-color: chocolate; */
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.UP70 {
+  text-align: center;
+  color: rgb(200, 17, 17);
+  font-family: monospace;
+  font-size: 50px;
+}
+.ptag {
+  margin-right: 20px;
+  text-align: center;
+  color: rgba(22, 20, 39, 0.776);
+  font-family: monospace;
+  font-size: 60px;
+}
